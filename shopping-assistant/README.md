@@ -1,7 +1,11 @@
-# shopping-assistant
+# Shopping Assistant
 
-Simple ReAct agent
-Agent generated with `agents-cli` version `0.5.0`
+An AI-powered retail shopping assistant built with Google ADK 2.0.
+This agent helps customers with their shopping experience and securely manages operations like single-use discount code redemptions.
+
+### Features
+- **Discount Redemption Tool**: Securely processes discount codes like `WELCOME50` while preventing double-spending and unauthorized access.
+- **Security First**: Protected by local pre-commit hooks and custom Semgrep scans to prevent hardcoded secrets.
 
 ## Project Structure
 
